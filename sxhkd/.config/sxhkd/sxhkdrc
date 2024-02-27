@@ -33,7 +33,7 @@ super + shift + l
 
 # Screenshot
 { ,super}+Print
-	{ scrot --select --line mode=edge ~/Pictures/screenshots/%Y-%m-%d-%T-screenshot.png,scrot -z ~/Pictures/screenshots/%Y-%m-%d-%T-screenshot.png}
+	{ scrot -z --select --line mode=edge ~/Pictures/screenshots/%Y-%m-%d-%T-screenshot.png,scrot -z ~/Pictures/screenshots/%Y-%m-%d-%T-screenshot.png}
 
 
 	
