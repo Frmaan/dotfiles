@@ -1,0 +1,16 @@
+#! /bin/sh
+pgrep -x sxhkd > /dev/null || sxhkd &
+~/.config/polybar/polybar.sh &
+xwallpaper --zoom  ~/.config/bspwm/wall.png &
+xsetroot -cursor_name left_ptr &
+setxkbmap -option ctrl:swapcaps &
+dunst &
+
+bspc monitor -d I II III IV V VI VII VIII IX
+bspc config border_width          2
+bspc config window_gap            0
+bspc config focus_follows_pointer true
+bspc config split_ratio          0.5
+
+bspc rule -a Emacs state=tiled
+
