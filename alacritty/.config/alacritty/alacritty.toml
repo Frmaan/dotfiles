@@ -1,0 +1,36 @@
+[font]
+size = 10
+
+[font.bold]
+family = "Iosevka"
+style = "Bold"
+
+[font.bold_italic]
+family = "Iosevka"
+style = "Bold Italic"
+
+[font.italic]
+family = "Iosevka"
+style = "Italic"
+
+[font.normal]
+family = "Iosevka"
+style = "Regular"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 5
+y = 5
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[general]
+live_config_reload = true
