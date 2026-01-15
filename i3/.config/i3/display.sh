@@ -1,13 +1,13 @@
 #!/bin/sh
 
-EXT_MON="HDMI-0"
+EXT_MON="HDMI-1"
 
 check_mon() {
     xrandr | grep "$EXT_MON connected" > /dev/null
 }
 
 set_mon() {
-    xrandr --output "$EXT_MON" --auto --right-of DP-0
+    xrandr --output "$EXT_MON" --auto --right-of eDP-1
 }
 
 set_auto() {
