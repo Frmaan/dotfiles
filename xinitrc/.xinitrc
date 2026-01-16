@@ -1,3 +1,3 @@
 setxkbmap -option ctrl:swapcaps 
-xset -b 
+xset -b
 exec i3
