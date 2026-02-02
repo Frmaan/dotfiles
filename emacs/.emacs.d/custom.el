@@ -4,7 +4,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages '(magit denote-journal denote modus-themes)))
+ '(package-selected-packages
+   '(trashed dired-subtree corfu orderless marginalia nerd-icons-dired nerd-icons-corfu nerd-icons-completion nerd-icons magit denote-journal denote modus-themes)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
