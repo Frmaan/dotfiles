@@ -1,22 +1,23 @@
+[general]
 live_config_reload = true
 
 [font]
 size = 12
 
 [font.bold]
-family = "Iosevka"
+family = "Hack"
 style = "Bold"
 
 [font.bold_italic]
-family = "Iosevka"
+family = "Hack"
 style = "Bold Italic"
 
 [font.italic]
-family = "Iosevka"
+family = "Hack"
 style = "Italic"
 
 [font.normal]
-family = "Iosevka"
+family = "Hack"
 style = "Regular"
 
 [scrolling]

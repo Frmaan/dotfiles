@@ -49,11 +49,11 @@
   (load-theme 'modus-vivendi :no-confirm-loading))
 
 
-(let ((mono-spaced-font "Iosevka")
-      (proportionately-spaced-font "Iosevka"))
+(let ((mono-spaced-font "Fira Code")
+      (proportionately-spaced-font "Fira Code"))
   (set-face-attribute 'default nil :family mono-spaced-font :height 120)
   (set-face-attribute 'fixed-pitch nil :family mono-spaced-font :height 1.0)
-  (set-face-attribute 'variable-pitch nil :family proportionately-spaced-font :height 1.0))
+  (set-face-attribute 'variable-pitch nil :family proportionately-spaced-font :height 1.0)) 
 
 (use-package nerd-icons
   :ensure t)
