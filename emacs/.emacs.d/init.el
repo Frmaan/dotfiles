@@ -20,6 +20,15 @@
 (when (native-comp-available-p)
   (setq native-comp-async-report-warnings-errors 'silent))
 
+(use-package naysayer-theme
+  :ensure t)
+
+(use-package gruvbox-theme
+  :ensure t)
+
+(load-theme 'naysayer :no-confirm)
+
+
 (use-package denote
   :ensure t
   :bind
