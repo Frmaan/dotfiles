@@ -34,5 +34,5 @@ y = 5
 
 [colors]
 [colors.primary]
-background = '#000000'
-foreground = '#ffffff'
+background = '#062329'
+foreground = '#d1b879'
