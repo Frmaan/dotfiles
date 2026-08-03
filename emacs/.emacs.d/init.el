@@ -20,29 +20,8 @@
 (when (native-comp-available-p)
   (setq native-comp-async-report-warnings-errors 'silent))
 
-(use-package naysayer-theme
-  :ensure t)
-
-(use-package gruvbox-theme
-  :ensure t)
-
-(load-theme 'naysayer :no-confirm)
-
-
-(use-package denote
-  :ensure t
-  :bind
-  (("C-c n n" . denote))
-  :config
-  (setq denote-directory (expand-file-name "~/Documents/notes/")))
-
-(use-package denote-journal
-  :ensure t
-  :bind
-  (("C-c n j" . denote-journal-new-entry))
-  :config
-  (setq denote-journal-directory (expand-file-name "journal" denote-directory)))
-
+(load-theme 'modus-vivendi :no-confirm-loading)
+	
 (use-package magit
   :ensure t
   :config
